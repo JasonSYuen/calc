@@ -1,0 +1,51 @@
+table {
+
+    border: solid black;
+    width: 500px;
+    height: 500px;
+}
+
+tr,
+td {
+
+    border: solid black;
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.num {
+    background-color: aqua;
+}
+
+.op {
+    background-color: green;
+}
+
+.cl {
+    background-color: orange;
+}
+
+.dec {
+
+    background-color: pink;
+}
+
+button {
+    display: inline-block;
+    margin: 0px;
+    width: 125px;
+    height: 83px;
+}
+
+#display {
+    size: 30px;
+    color: black;
+
+}
